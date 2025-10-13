@@ -1,0 +1,51 @@
+/* *{
+    color: #D78FEE;
+    /* background-color: blue; */ /* this is a comment in CSS */ 
+
+/* 1)Universal Selector (*)
+    2) Element Selector (h1,p,a etc...)
+    3) Id Selector ( #myID )
+    4) Class Selector (.myclass )
+*/
+
+
+/* #MainHeading{
+    color:yellow;
+}
+
+#Subheadings{
+    color:blue;
+} */
+
+/* .MainHeading{
+    color:darkgreen;
+}
+
+.Subheadings{
+    color: brown;
+} */
+
+
+/* h1{
+    color: deeppink;
+    text-align: center;
+    text-decoration: underline green wavy;
+}
+
+p{
+    text-align: right;
+    color:chartreuse;
+    
+}
+
+a{
+    text-decoration: none;
+    font-weight: 900;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+} */
+
+h1,a,p{
+    color:blue;
+}
+
+
