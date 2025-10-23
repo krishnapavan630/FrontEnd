@@ -1,0 +1,72 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+/* Display Property:
+
+1)Inline - Takes only the space (No Margins and Paddings)
+2)Block -  Takes full width.
+3)Inline Block - Similar to inline but we can set margins and padding
+4)none
+
+
+/* div{
+    background-color: black;
+}
+
+a{
+    color: aqua;
+} */
+
+
+/* div{
+    height: 100px;
+    width: 90px;
+}
+
+span{
+    height: 100px;
+    width: 90px;
+} */
+
+/* h1{
+    display: inline;
+}
+
+button{
+    display: block;
+} */
+
+
+div{
+    height: 50px;
+    width: 50px;
+    border: 2px solid pink;
+    margin: 25px;
+    display: inline-block;
+} 
+
+/* #div2{
+    display: none; Place is not reserved
+} */
+
+/* #div2{
+    visibility: hidden;
+} */
+
+/* Alpha channel 
+RGBA (0-1
+*/
+
+#div1{
+    background-color: rgba(255,0,0,0);
+}
+
+#div2{
+    background-color: rgba(255,0,0,0.5);
+}
+
+#div3{
+    background-color: rgba(255,0,0,1);
+}
