@@ -1,0 +1,54 @@
+/* *{
+    padding: 0;
+    margin: 0;
+}
+
+div{
+    height: 100vh; Viewport height
+    width: 100vw;
+    background-color: crimson;
+} 
+position property -- This will tell how an element is ositioned in document
+
+1) Static  --  Top,bottom,left,right,z-index ( No effect)
+2) Relative -- Top,bottom,left,right,z-index (  Will effect) "Relative to itself"
+3) Absolute -- Top,bottom,left,right,z-index (  Will effect) "Postion with respect to page removed from flow"
+4) Fixed -- Top,bottom,left,right,z-index (  Will effect) "Postion with respect to document removed from flow"
+5) Sticky -- Top,bottom,left,right,z-index (  Will effect) "Position based on user scroll controll" */
+
+div{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    display: inline-block;
+}
+
+#one{
+    background-color: aquamarine;
+    position: static;
+    background-image: url("bharath-kumar-5gxJixmQjx0-unsplash.jpg");
+    background-size:cover;
+    top: 20px;
+    z-index: 0;
+}
+
+#two{
+    background-color: chocolate;
+    position: relative;
+    top: 20px;
+    /* right: 50px;
+    z-index: -1; */
+}
+
+#three{
+    background-color: crimson;
+    position: sticky;
+    top:30px;
+}
+
+#four{
+    background-color: darkcyan;
+    position: fixed;
+    top: 50px;
+    left: 700px;
+}

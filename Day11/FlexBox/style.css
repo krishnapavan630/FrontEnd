@@ -1,0 +1,54 @@
+/* FlexProperties
+
+Justify content : flex-start, flex-end, center, space around, space between, space evenly - to modify main axis items
+align items --  to modify cross
+Flex wrap
+align content
+align self -- to individual item*/
+
+body{
+    text-align: center;
+}
+
+div{
+    height: 50px;
+    width: 200px;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+#container{
+    height: 600px;
+    width: 1800px;
+    display: flex;
+    flex-direction:row; /* This defines how flex items are placed in the flex container */
+    justify-content: center ;
+    align-items: center; 
+    /* flex-wrap: wrap ; */
+    /* align-content: center; */
+
+}
+
+#box1{
+    background-color: chocolate;
+    flex-grow: 1;
+}
+
+#box2{
+    background-color: cornsilk;
+    /* height: 150px; */
+    /* align-self: flex-start ; */
+    flex-grow: 2;
+}
+
+#box3{
+    background-color: crimson;
+}
+
+#box4{
+    background-color:darkcyan;
+}
+
+#box5{
+    background-color:darkseagreen;
+}
