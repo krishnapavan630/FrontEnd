@@ -1,0 +1,19 @@
+body{
+    background-color: white;
+}
+
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: aqua;
+}
+
+p{
+    visibility: hidden;
+}
+
+div{
+    height: 100px;
+    width: 100px;
+    background-color: cadetblue;
+    border: 2px solid black;
+}
